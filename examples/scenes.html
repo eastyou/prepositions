@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>方位介词场景图</title>
+<style>
+@page { size: A4; margin: 16mm; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  margin: 0;
+  background: #e9edf3;
+  color: #1f2937;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Noto Sans SC", Arial, sans-serif;
+  line-height: 1.6;
+}
+.sheet {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 16px auto;
+  padding: 16mm;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(15, 23, 42, 0.12);
+}
+.sheet-head { border-bottom: 2px solid #2f6fed; padding-bottom: 10px; margin-bottom: 14px; }
+h1 { margin: 0 0 6px; font-size: 22pt; color: #1e3a8a; }
+.meta { margin: 0; color: #475569; font-size: 10.5pt; }
+.badge {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #166534;
+  font-size: 10pt;
+}
+.questions { list-style: none; margin: 0; padding: 0; }
+.q { padding: 10px 0 12px; border-bottom: 1px dashed #cbd5e1; page-break-inside: avoid; }
+.q:last-child { border-bottom: 0; }
+.q-head { font-size: 12pt; font-weight: 600; }
+.num { color: #2f6fed; margin-right: 4px; }
+.thumb { margin: 6px 0; }
+.scene-svg {
+  width: 132px;
+  height: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fbfaf7;
+}
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  font-size: 11pt;
+}
+.options li { min-width: 110px; }
+.key {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 50%;
+  background: #eef2ff;
+  color: #3730a3;
+  font-size: 9pt;
+  margin-right: 4px;
+}
+.answer {
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: #ecfdf5;
+  border-left: 3px solid #10b981;
+  color: #065f46;
+  font-size: 10.5pt;
+}
+.sheet-foot { margin-top: 14px; color: #64748b; font-size: 9.5pt; text-align: center; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.card {
+  border: 1px solid #dbe3ee;
+  border-radius: 10px;
+  padding: 8px;
+  background: #fff;
+  page-break-inside: avoid;
+}
+.card h2 { margin: 0; font-size: 13pt; color: #1e3a8a; }
+.card .meaning { font-size: 9.5pt; color: #475569; font-weight: 400; }
+.card .thumb { margin: 4px 0; }
+.card .scene-svg { width: 100%; }
+.card .sentence { margin: 2px 0; font-size: 9.5pt; font-weight: 600; }
+.card .note { margin: 0; font-size: 8.5pt; color: #64748b; }
+.card .tag {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #3730a3;
+  font-size: 8pt;
+}
+.focus { max-width: 460px; margin: 0 auto; }
+.focus .card { padding: 14px; }
+.focus .card h2 { font-size: 20pt; }
+.focus .card .sentence { font-size: 12pt; }
+.focus .card .note { font-size: 10.5pt; }
+@media print {
+  body { background: #fff; }
+  .sheet { width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none; }
+}
+</style>
+</head>
+<body>
+<main class="sheet"><header class="sheet-head"><h1>方位介词场景图</h1><p class="meta">共 12 个方位介词 · 观察球与盒子的位置关系</p></header><section class="grid"><article class="card"><h2>in <span class="meaning">在……里面</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-in-title scene-in-desc"><title id="scene-in-title">in · 在……里面</title><desc id="scene-in-desc">in表示「在……里面」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">in · 在……里面</text><rect class="box" x="110" y="104" width="100" height="62" rx="5" fill="#f3d4a0" fill-opacity="0.55" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="160" cy="142" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="138" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is in the box.</p><p class="note">强调在某个空间的内部，常与封闭空间连用，如 in the box。</p><span class="tag">in</span></article><article class="card"><h2>on <span class="meaning">在……上面</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-on-title scene-on-desc"><title id="scene-on-title">on · 在……上面</title><desc id="scene-on-desc">on表示「在……上面」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">on · 在……上面</text><rect class="box" x="110" y="104" width="100" height="62" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="160" cy="91" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="87" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is on the box.</p><p class="note">表示在物体表面上并与之接触，如 on the table。</p><span class="tag">on</span></article><article class="card"><h2>under <span class="meaning">在……下面</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-under-title scene-under-desc"><title id="scene-under-title">under · 在……下面</title><desc id="scene-under-desc">under表示「在……下面」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">under · 在……下面</text><rect class="box" x="110" y="86" width="100" height="60" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="160" cy="174" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="170" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is under the box.</p><p class="note">表示在物体正下方，与 over 相对；under 更强调正下方。</p><span class="tag">under</span></article><article class="card"><h2>behind <span class="meaning">在……后面</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-behind-title scene-behind-desc"><title id="scene-behind-title">behind · 在……后面</title><desc id="scene-behind-desc">behind表示「在……后面」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">behind · 在……后面</text><circle class="ball" cx="160" cy="100" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="96" r="4" fill="#bfdbfe" opacity="0.9"/><rect class="box" x="110" y="104" width="100" height="62" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is behind the box.</p><p class="note">表示在物体后方，视线通常被物体遮挡。</p><span class="tag">behind</span></article><article class="card"><h2>in front of <span class="meaning">在……前面</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-front-title scene-front-desc"><title id="scene-front-title">in front of · 在……前面</title><desc id="scene-front-desc">in front of表示「在……前面」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">in front of · 在……前面</text><rect class="box" x="110" y="104" width="100" height="62" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="160" cy="168" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="164" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is in front of the box.</p><p class="note">表示在物体前方，与 behind 相对，注意由三个单词组成。</p><span class="tag">front</span></article><article class="card"><h2>next to <span class="meaning">在……旁边</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-next_to-title scene-next_to-desc"><title id="scene-next_to-title">next to · 在……旁边</title><desc id="scene-next_to-desc">next to表示「在……旁边」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">next to · 在……旁边</text><rect class="box" x="88" y="112" width="90" height="56" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="218" cy="140" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="214" cy="136" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is next to the box.</p><p class="note">表示紧挨着某物，可与 beside 互换使用。</p><span class="tag">next_to</span></article><article class="card"><h2>between <span class="meaning">在……之间</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-between-title scene-between-desc"><title id="scene-between-title">between · 在……之间</title><desc id="scene-between-desc">between表示「在……之间」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">between · 在……之间</text><rect class="box" x="44" y="104" width="72" height="62" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><rect class="box" x="204" y="104" width="72" height="62" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="160" cy="135" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="131" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is between the two boxes.</p><p class="note">表示在两者之间，通常要出现两个参照对象。</p><span class="tag">between</span></article><article class="card"><h2>above <span class="meaning">在……上方</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-above-title scene-above-desc"><title id="scene-above-title">above · 在……上方</title><desc id="scene-above-desc">above表示「在……上方」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">above · 在……上方</text><rect class="box" x="110" y="124" width="100" height="62" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="160" cy="58" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="54" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is above the box.</p><p class="note">表示位置高于某物，不一定在正上方，与 below 相对。</p><span class="tag">above</span></article><article class="card"><h2>below <span class="meaning">在……下方</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-below-title scene-below-desc"><title id="scene-below-title">below · 在……下方</title><desc id="scene-below-desc">below表示「在……下方」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">below · 在……下方</text><rect class="box" x="110" y="66" width="100" height="62" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="160" cy="190" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="186" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is below the box.</p><p class="note">表示位置低于某物，与 above 相对。</p><span class="tag">below</span></article><article class="card"><h2>over <span class="meaning">在……正上方</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-over-title scene-over-desc"><title id="scene-over-title">over · 在……正上方</title><desc id="scene-over-desc">over表示「在……正上方」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">over · 在……正上方</text><rect class="box" x="110" y="128" width="100" height="62" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="160" cy="58" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="54" r="4" fill="#bfdbfe" opacity="0.9"/><path class="arc" d="M 208 122 Q 244 92 178 70" fill="none" stroke="#b45309" stroke-width="2" stroke-dasharray="4 4"/><path class="arrow" d="M 178 70 L 190 76 L 186 63 Z" fill="#b45309"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is over the box.</p><p class="note">强调正上方或覆盖关系，也可表示越过某物。</p><span class="tag">over</span></article><article class="card"><h2>near <span class="meaning">在……附近</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-near-title scene-near-desc"><title id="scene-near-title">near · 在……附近</title><desc id="scene-near-desc">near表示「在……附近」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">near · 在……附近</text><rect class="box" x="110" y="104" width="100" height="62" rx="5" fill="#f3d4a0" fill-opacity="1" stroke="#a16207" stroke-width="3"/><circle class="near-ring" cx="250" cy="140" r="26" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 4"/><circle class="ball" cx="250" cy="140" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="246" cy="136" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is near the box.</p><p class="note">表示距离较近，但不一定紧挨着，与 far from 相对。</p><span class="tag">near</span></article><article class="card"><h2>inside <span class="meaning">在……内部</span></h2><div class="thumb"><svg class="scene-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220" role="img" aria-labelledby="scene-inside-title scene-inside-desc"><title id="scene-inside-title">inside · 在……内部</title><desc id="scene-inside-desc">inside表示「在……内部」，画面展示球与盒子的位置关系。</desc><rect x="0" y="0" width="320" height="220" fill="#fbfaf7"/><text class="caption" x="160" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">inside · 在……内部</text><rect class="box" x="110" y="104" width="100" height="62" rx="5" fill="#f3d4a0" fill-opacity="0.45" stroke="#a16207" stroke-width="3"/><circle class="ball" cx="160" cy="146" r="13" fill="#2f6fed" stroke="#1e3a8a" stroke-width="2"/><circle cx="156" cy="142" r="4" fill="#bfdbfe" opacity="0.9"/><text class="legend" x="12" y="212" font-size="11" fill="#475569">● 球 ball　▭ 盒子 box</text></svg></div><p class="sentence">The ball is inside the box.</p><p class="note">比 in 更强调完全处于内部，多用于封闭空间。</p><span class="tag">inside</span></article></section><footer class="sheet-foot">英语方位介词与场景图 · 可打印 A4 页面</footer></main>
+</body>
+</html>

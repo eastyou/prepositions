@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prepositions"
+version = "0.1.0"
+description = "英语方位介词与场景图：词表查询、球与盒子示例句、四选一练习页"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "eastyou" }]
+keywords = ["education", "english", "prepositions", "python", "teaching"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+prepositions = "prepositions.cli:main"
+
+[tool.setuptools]
+packages = ["prepositions"]
